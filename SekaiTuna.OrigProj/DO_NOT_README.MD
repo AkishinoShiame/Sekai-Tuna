@@ -13,3 +13,4 @@
 ## テクニック
 * [Ren'Py Build 6.99.14.3](https://www.renpy.org/)
 * [Live2D Build 3.2.00](http://www.live2d.com/ja/)
+AAAA
