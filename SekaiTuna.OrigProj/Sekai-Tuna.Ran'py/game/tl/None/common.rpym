@@ -157,147 +157,155 @@ translate None strings:
     old "%b %d, %H:%M"
     new "%m月%d日, %H:%M"
 
-    # 00action_file.rpy:344
+    # 00action_file.rpy:345
     old "Save slot %s: [text]"
-    new "Save slot %s: [text]"
+    new "スロット%s: [text]にセーブ"
 
-    # 00action_file.rpy:417
+    # 00action_file.rpy:421
     old "Load slot %s: [text]"
-    new "Load slot %s: [text]"
+    new "スロット%s: [text]をロード"
 
-    # 00action_file.rpy:459
+    # 00action_file.rpy:466
     old "Delete slot [text]"
-    new "Delete slot [text]"
+    new "スロット[text]を削除"
 
-    # 00action_file.rpy:539
+    # 00action_file.rpy:546
     old "File page auto"
-    new "File page auto"
+    new "オートファイルページ"
 
-    # 00action_file.rpy:541
+    # 00action_file.rpy:548
     old "File page quick"
-    new "File page quick"
+    new "クイックファイルページ"
 
-    # 00action_file.rpy:543
+    # 00action_file.rpy:550
     old "File page [text]"
-    new "File page [text]"
+    new "ファイルページ[text]"
 
-    # 00action_file.rpy:601
+    # 00action_file.rpy:608
     old "Page {}"
     new "ページ {}"
 
-    # 00action_file.rpy:601
+    # 00action_file.rpy:608
     old "Automatic saves"
     new "オートセーブ"
 
-    # 00action_file.rpy:601
+    # 00action_file.rpy:608
     old "Quick saves"
     new "クイックセーブ"
 
-    # 00action_file.rpy:733
+    # 00action_file.rpy:740
     old "Next file page."
-    new "Next file page."
+    new "次のファイルページ"
 
-    # 00action_file.rpy:797
+    # 00action_file.rpy:804
     old "Previous file page."
-    new "Previous file page."
+    new "前のファイルページ"
 
-    # 00action_file.rpy:858
+    # 00action_file.rpy:865
     old "Quick save complete."
     new "クイックセーブ完了。"
 
-    # 00action_file.rpy:876
+    # 00action_file.rpy:883
     old "Quick save."
-    new "Quick save."
+    new "クイックセーブ"
 
-    # 00action_file.rpy:895
+    # 00action_file.rpy:902
     old "Quick load."
-    new "Quick load."
+    new "クイックロード"
 
-    # 00action_other.rpy:344
+    # 00action_other.rpy:355
     old "Language [text]"
-    new "Language [text]"
+    new "言語 [text]"
 
-    # 00director.rpy:703
+    # 00director.rpy:708
     old "The interactive director is not enabled here."
     new "ここではインタラクティブディレクターは使えません"
 
-    # 00director.rpy:1490
+    # 00director.rpy:1478
+    old "⬆"
+    new "⬆"
+
+    # 00director.rpy:1484
+    old "⬇"
+    new "⬇"
+
+    # 00director.rpy:1548
     old "Done"
     new "終了"
 
-    # 00director.rpy:1498
+    # 00director.rpy:1558
     old "(statement)"
     new "(statement)"
 
-    # 00director.rpy:1499
+    # 00director.rpy:1559
     old "(tag)"
     new "(tag)"
 
-    # 00director.rpy:1500
+    # 00director.rpy:1560
     old "(attributes)"
     new "(attributes)"
 
-    # 00director.rpy:1501
+    # 00director.rpy:1561
     old "(transform)"
     new "(transform)"
 
-    # 00director.rpy:1526
+    # 00director.rpy:1586
     old "(transition)"
     new "(transition)"
 
-    # 00director.rpy:1538
+    # 00director.rpy:1598
     old "(channel)"
     new "(channel)"
 
-    # 00director.rpy:1539
+    # 00director.rpy:1599
     old "(filename)"
     new "(filename)"
 
-    # 00director.rpy:1564
+    # 00director.rpy:1628
     old "Change"
     new "変更"
 
-    # 00director.rpy:1566
+    # 00director.rpy:1630
     old "Add"
     new "追加"
 
-    # 00director.rpy:1569
+    # 00director.rpy:1633
     old "Cancel"
     new "キャンセル"
 
-    # 00director.rpy:1572
+    # 00director.rpy:1636
     old "Remove"
     new "削除"
 
-    # 00director.rpy:1605
+    # 00director.rpy:1671
     old "Statement:"
-    new "Statement（命令）:"
+    new "ステートメント:"
 
-    # 00director.rpy:1626
+    # 00director.rpy:1692
     old "Tag:"
-    new "Tag（タグ）:"
+    new "画像タグ:"
 
-    # 00director.rpy:1642
+    # 00director.rpy:1708
     old "Attributes:"
-    new "Attributes（属性）:"
+    new "画像属性:"
 
-    # 00director.rpy:1660
+    # 00director.rpy:1726
     old "Transforms:"
-    new "Transforms（画像変形）:"
+    new "変換:"
 
-    # 00director.rpy:1679
+    # 00director.rpy:1745
     old "Behind:"
-    new "Behind（裏に表示）:"
+    new "背後に表示:"
 
-    # 00director.rpy:1698
+    # 00director.rpy:1764
     old "Transition:"
-    new "Transition（遷移演出）:"
+    new "トランジション:"
 
-    # 00director.rpy:1716
+    # 00director.rpy:1782
     old "Channel:"
-    new "キャンセル"
+    new "チャンネル:"
 
-    # 00director.rpy:1734
+    # 00director.rpy:1800
     old "Audio Filename:"
     new "オーディオファイルネーム:"
 
@@ -363,39 +371,39 @@ translate None strings:
 
     # 00library.rpy:150
     old "bar"
-    new "bar"
+    new "バー"
 
     # 00library.rpy:151
     old "selected"
-    new "selected"
+    new "選択中"
 
     # 00library.rpy:152
     old "viewport"
-    new "viewport"
+    new "ビューポート"
 
     # 00library.rpy:153
     old "horizontal scroll"
-    new "horizontal scroll"
+    new "水平スクロール"
 
     # 00library.rpy:154
     old "vertical scroll"
-    new "vertical scroll"
+    new "垂直スクロール"
 
     # 00library.rpy:155
     old "activate"
-    new "activate"
+    new "有効"
 
     # 00library.rpy:156
     old "deactivate"
-    new "deactivate"
+    new "無効"
 
     # 00library.rpy:157
     old "increase"
-    new "increase"
+    new "増加"
 
     # 00library.rpy:158
     old "decrease"
-    new "decrease"
+    new "減少"
 
     # 00library.rpy:193
     old "Skip Mode"
@@ -407,83 +415,83 @@ translate None strings:
 
     # 00preferences.rpy:207
     old "display"
-    new "display"
+    new "表示"
 
     # 00preferences.rpy:219
     old "transitions"
-    new "transitions"
+    new "トランジション"
 
     # 00preferences.rpy:228
     old "skip transitions"
-    new "skip transitions"
+    new "トランジションをスキップ"
 
     # 00preferences.rpy:230
     old "video sprites"
-    new "video sprites"
+    new "ビデオ スプライト"
 
     # 00preferences.rpy:239
     old "show empty window"
-    new "show empty window"
+    new "空のウィンドウを表示"
 
     # 00preferences.rpy:248
     old "text speed"
-    new "text speed"
+    new "テキストスピード"
 
     # 00preferences.rpy:256
     old "joystick"
-    new "joystick"
+    new "ジョイスティック"
 
     # 00preferences.rpy:256
     old "joystick..."
-    new "joystick..."
+    new "ジョイスティック..."
 
     # 00preferences.rpy:263
     old "skip"
-    new "skip"
+    new "スキップ"
 
     # 00preferences.rpy:266
     old "skip unseen [text]"
-    new "skip unseen [text]"
+    new "未読の[text]をスキップ"
 
     # 00preferences.rpy:271
     old "skip unseen text"
-    new "skip unseen text"
+    new "未読のテキストをスキップ"
 
     # 00preferences.rpy:273
     old "begin skipping"
-    new "begin skipping"
+    new "スキップ開始"
 
     # 00preferences.rpy:277
     old "after choices"
-    new "after choices"
+    new "選択肢後"
 
     # 00preferences.rpy:284
     old "skip after choices"
-    new "skip after choices"
+    new "選択肢後もスキップ"
 
     # 00preferences.rpy:286
     old "auto-forward time"
-    new "auto-forward time"
+    new "オート待ち時間"
 
     # 00preferences.rpy:300
     old "auto-forward"
-    new "auto-forward"
+    new "オート送り"
 
     # 00preferences.rpy:307
     old "Auto forward"
-    new "Auto forward"
+    new "オート送り"
 
     # 00preferences.rpy:310
     old "auto-forward after click"
-    new "auto-forward after click"
+    new "クリック後もオート"
 
     # 00preferences.rpy:319
     old "automatic move"
-    new "automatic move"
+    new "自動ムービー"
 
     # 00preferences.rpy:328
     old "wait for voice"
-    new "wait for voice"
+    new "ボイスを待つ"
 
     # 00preferences.rpy:337
     old "voice sustain"
@@ -491,63 +499,63 @@ translate None strings:
 
     # 00preferences.rpy:346
     old "self voicing"
-    new "self voicing"
+    new "セルフボイシング"
 
     # 00preferences.rpy:355
     old "clipboard voicing"
-    new "clipboard voicing"
+    new "クリップボードボイシング"
 
     # 00preferences.rpy:364
     old "debug voicing"
-    new "debug voicing"
+    new "ボイシングのデバッグ"
 
     # 00preferences.rpy:373
     old "emphasize audio"
-    new "emphasize audio"
+    new "オーディオの強調"
 
     # 00preferences.rpy:382
     old "rollback side"
-    new "rollback side"
+    new "ロールバックサイド"
 
     # 00preferences.rpy:392
     old "gl powersave"
-    new "gl powersave"
+    new "ＧＬパワーセーブ"
 
     # 00preferences.rpy:398
     old "gl framerate"
-    new "gl framerate"
+    new "ＧＬフレームレート"
 
     # 00preferences.rpy:401
     old "gl tearing"
-    new "gl tearing"
+    new "ＧＬティアリング"
 
     # 00preferences.rpy:413
     old "music volume"
-    new "music volume"
+    new "音楽の音量"
 
     # 00preferences.rpy:414
     old "sound volume"
-    new "sound volume"
+    new "効果音の音量"
 
     # 00preferences.rpy:415
     old "voice volume"
-    new "voice volume"
+    new "ボイスの音量"
 
     # 00preferences.rpy:416
     old "mute music"
-    new "mute music"
+    new "音楽をミュート"
 
     # 00preferences.rpy:417
     old "mute sound"
-    new "mute sound"
+    new "効果音をミュート"
 
     # 00preferences.rpy:418
     old "mute voice"
-    new "mute voice"
+    new "ボイスをミュート"
 
     # 00preferences.rpy:419
     old "mute all"
-    new "mute all"
+    new "音声を全てミュート"
 
     # 00preferences.rpy:500
     old "Clipboard voicing enabled. Press 'shift+C' to disable."
@@ -607,11 +615,11 @@ translate None strings:
 
     # _developer\developer.rpym:57
     old "Show Image Load Log (F4)"
-    new "Show Image Load Log (F4)"
+    new "画像ロードログを表示する (F4)"
 
     # _developer\developer.rpym:60
     old "Hide Image Load Log (F4)"
-    new "Hide Image Load Log (F4)"
+    new "画像ロードログを隠す (F4)"
 
     # _developer\developer.rpym:66
     old "Return"
@@ -647,15 +655,15 @@ translate None strings:
 
     # _developer\developer.rpym:447
     old "Type to filter: "
-    new "Type to filter: "
+    new "フィルタして検索: "
 
     # _developer\developer.rpym:575
     old "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
-    new "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
+    new "テクスチャー: [tex_count] ([tex_size_mb:.1f] MB)"
 
     # _developer\developer.rpym:579
     old "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
-    new "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
+    new "イメージキャッシュ: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
 
     # _developer\developer.rpym:589
     old "✔ "
@@ -805,7 +813,7 @@ translate None strings:
     old "Proceed"
     new "続行"
 
-    # 00compat.rpy:247
+    # 00compat.rpy:252
     old "Fullscreen"
     new "フルスクリーン"
 
@@ -831,7 +839,7 @@ translate None strings:
 
     # 00gltest.rpy:70
     old "Renderer"
-    new "Renderer"
+    new "レンダラー"
 
     # 00gltest.rpy:74
     old "Automatically Choose"
@@ -871,15 +879,15 @@ translate None strings:
 
     # 00gltest.rpy:131
     old "Powersave"
-    new "Powersave"
+    new "パワーセーブ"
 
     # 00gltest.rpy:145
     old "Framerate"
-    new "Framerate"
+    new "フレームレート"
 
     # 00gltest.rpy:149
     old "Screen"
-    new "Screen"
+    new "スクリーン"
 
     # 00gltest.rpy:153
     old "60"
@@ -891,7 +899,7 @@ translate None strings:
 
     # 00gltest.rpy:163
     old "Tearing"
-    new "Tearing"
+    new "ティアリング"
 
     # 00gltest.rpy:179
     old "Changes will take effect the next time this program is run."

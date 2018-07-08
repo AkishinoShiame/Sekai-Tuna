@@ -3,8 +3,8 @@
 ################################################################################
 
 ## このファイルは GUI をカスタマイズする基本的なオプションを記載しています。次の
-## init offset 文により、このファイルの init 文は他のファイルの init 文よりも先
-## に実行されます。
+## init offset ステートメントにより、このファイルの init 文は他のファイルの init
+## 文よりも先に実行されます。
 init offset = -2
 
 ## まず最初に gui.init を実行して、スタイルを扱いやすい初期値にリセットし、ゲー
@@ -31,29 +31,28 @@ define gui.accent_color = '#cc0066'
 ## ラー。
 define gui.idle_color = '#888888'
 
-## スモールカラー。明るさを調節する必要のあるクイックメニューなどの小さなテキス
-## トボタンに使います。
+## スモールカラー。クイックメニューなどの、明るさを調節する必要のある小さなテキ
+## ストボタンに使います。
 define gui.idle_small_color = '#aaaaaa'
 
-## hover（フォーカス中）のテキストボタンのカラー。また、バーの充足部分（左側）・
-## hover のスライダーのつまみ等の画像を再生成するときにも使われます。
+## hover（フォーカス中）のテキストボタンのカラー。また、バーの充足部分（左側）や
+## スライダーのつまみ等の画像を再生成するときにも使われます。
 define gui.hover_color = '#e066a3'
 
-## selected（選択中）のテキストボタンのカラー。ボタンは、現在の環境設定の値や表
-## 示中のスクリーンと一致するものが選択中になります。
+## selected（選択中）のテキストボタンのカラー。ボタンが現在のスクリーンであった
+## り、環境設定の値と一致したりすると、ボタンは選択中になります。
 define gui.selected_color = '#ffffff'
 
 ## insensitive (選択不可能）なテキストボタンのカラー。
 define gui.insensitive_color = '#8888887f'
 
 ## バーの非充足部分（右側）やスライダーの背景部分のカラー。バーやスライダーのカ
-## ラーは、ゲームでは直接使われず GUI を変更・更新した場合の画像生成に使われま
-## す。
+## ラーは直接使われず、 GUI を変更・更新した場合の画像生成に使われます。
 define gui.muted_color = '#510028'
 define gui.hover_muted_color = '#7a003d'
 
-## 次の text_color は台詞や選択肢のテキストのカラーです。その次の
-## interface_text_color はヒストリーやヘルプなどそれ以外のテキストのカラーです。
+## text_color は台詞や選択肢のテキストのカラーです。interface_text_color はヒス
+## トリーやヘルプなどそれ以外のテキストのカラーです。
 define gui.text_color = '#ffffff'
 define gui.interface_text_color = '#ffffff'
 
@@ -94,7 +93,7 @@ define gui.title_text_size = 50
 ## に表示されるメニュー、ゲームメニューはゲーム中右クリックで呼び出せるメニュー
 ## です。画像を変えたい場合は gui ディレクトリーにある該当の画像を入れ替えてくだ
 ## さい。
-define gui.main_menu_background = "gui/main_menu.png"
+define gui.main_menu_background = "images/test haike.png"#"gui/main_menu.png"
 define gui.game_menu_background = "gui/game_menu.png"
 
 
@@ -296,7 +295,7 @@ define gui.main_menu_text_xalign = 1.0
 ## フレーム ########################################################################
 ##
 ## 以下の変数は、インターフェースのコンポーネントを収納するフレームを制御しま
-## す。フレームは、ウィンドウやオーバーレイが用いられない場面で使われます。
+## す。フレームは、ウィンドウやオーバーレイが用意されていない場面で使われます。
 
 ## 一般的なフレーム。デフォルトのインターフェースでは未使用です。画像は gui/
 ## frame.png。
