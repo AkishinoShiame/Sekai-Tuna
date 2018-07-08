@@ -146,7 +146,7 @@ default preferences.afm_time = 15
 ## この値は一般的に変更するべきではありません。もし変更する場合、式や変数ではな
 ## く文字列で直接指定しなければなりません。
 
-define config.save_directory = "Sekai-TunaRanpy-1531040550"
+define config.save_directory = "Sekai-TunaRanpy/Save"
 
 
 ## アイコン ########################################################################
