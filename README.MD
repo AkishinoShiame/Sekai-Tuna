@@ -12,7 +12,7 @@
 
 ## 出品
 
-![薔薇色ヴィジュノベ](https://imgur.com/2WJA04z)
+![薔薇色ヴィジュノベ](https://imgur.com/2WJA04z.png)
 
 ## テクニック
 * [Ren'Py Build 6.99.14.3](https://www.renpy.org/)
