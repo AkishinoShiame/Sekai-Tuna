@@ -1,0 +1,9 @@
+[submodule "Backend.DL/Character/IllustrationGAN"]
+	path = Backend.DL/Character/IllustrationGAN
+	url = https://github.com/tdrussell/IllustrationGAN
+[submodule "Backend.DL/Character/chainer-gan-lib"]
+	path = Backend.DL/Character/chainer-gan-lib
+	url = https://github.com/pfnet-research/chainer-gan-lib
+[submodule "Backend.DL/Character/animeGAN"]
+	path = Backend.DL/Character/animeGAN
+	url = https://github.com/jayleicn/animeGAN
