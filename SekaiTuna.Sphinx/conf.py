@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'SekaiTuna'
-copyright = '2019, AkishinoShaime'
-author = 'AkishinoShaime'
+project = '世界はこれから繋がっている'
+copyright = '2019, 秋篠詩雨'
+author = '秋篠詩雨'
 
 # The full version, including alpha/beta/rc tags
 release = 'v0.1b'
@@ -46,7 +46,7 @@ language = 'jp'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -54,9 +54,15 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'msmb_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# Theme profile used to import the theme.
+# Adding msmb_theme and it's theme path.
+
+import msmb_theme
+html_theme_path = [msmb_theme.get_html_theme_path()]

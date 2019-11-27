@@ -1,10 +1,10 @@
-.. SekaiTuna documentation master file, created by
-   sphinx-quickstart on Wed Nov 27 12:09:20 2019.
+.. 世界はこれから繋がっている documentation master file, created by
+   sphinx-quickstart on Wed Nov 27 14:42:31 2019.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to SekaiTuna's documentation!
-=====================================
+Welcome to 世界はこれから繋がっている's documentation!
+======================================================
 
 .. toctree::
    :maxdepth: 2
