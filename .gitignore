@@ -1,2 +1,4 @@
 # except for mac build-in config file
-.DS_Store
+.DS_Store*
+.DS*
+.D*
