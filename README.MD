@@ -12,7 +12,7 @@
 
 ## 出品
 
-![詩雨桜プロジェクト]](/data/ShiameSakuraProject.png)
+![詩雨桜プロジェクト](/data/ShiameSakuraProject.png)
   
 >　作者：秋篠　詩雨
 >　この物語はフィクションです。
