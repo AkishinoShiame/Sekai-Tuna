@@ -12,7 +12,10 @@
 
 ## 出品
 
-![薔薇色ヴィジュノベ](https://imgur.com/2WJA04z.png)
+![詩雨桜プロジェクト]](/data/ShiameSakuraProject.png)
+  
+>　作者：秋篠　詩雨
+>　この物語はフィクションです。
 
 ## テクニック
 * [Ren'Py Build 6.99.14.3](https://www.renpy.org/)
