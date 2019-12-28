@@ -14,8 +14,8 @@
 
 ![詩雨桜プロジェクト](/data/ShiameSakuraProject.png)
   
->　作者：秋篠　詩雨
->　この物語はフィクションです。
+>　作者：秋篠　詩雨 <br>
+>　この物語はフィクションです。 <br>
 
 ## テクニック
 * [Ren'Py Build 6.99.14.3](https://www.renpy.org/)
