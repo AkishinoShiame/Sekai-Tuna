@@ -47,7 +47,15 @@
 
 ## オリジナルのシナリオ
 
-物語の本編は[こっちへ](StoryLine.Main/#世界はこれから繋がっている)。
+物語の本編は[Python-Sphinx](https://www.sphinx-doc.org/ja/master/)を使って、この[サイト](https://akishinoshiame.github.io/Sekai-Tuna-Story/)で実現しました。
+
+元ソースコードは[このレポジトリー](https://github.com/AkishinoShiame/Sekai-Tuna-Story)で確認できます。
+
+## 公式サイト
+
+本作の公式サイトはまだ工事中けど、予定のアドレスは以下の通りです。
+
+[「世界はこれから繋がっている」-　詩雨桜プロジェクト](https://akishinoshiame.github.io/Sekai-Tuna/)
 
 ## ライセンス
 
